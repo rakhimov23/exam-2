@@ -1,0 +1,36 @@
+section#our-pets-2 {
+    margin-left: 60px;
+    .container {
+        .grid {
+            grid-template-areas:
+            "a b s d "
+            "a b s d "
+            ;
+            gap: 1rem;
+            .card {
+                width: 265px;
+                padding-bottom: 10px;
+                border-radius: 10px;
+                box-shadow: 0 0 15px rgb(222, 216, 216);
+                p {
+                    padding: 10px;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height:24px;
+                    padding: 5px;
+                    color: #00171F;
+                }
+                
+                span {
+                    width: 28px;
+                    height: 18px;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 18px;
+                    padding-left: 6px;
+                    color: #667479;
+                }
+            }
+        }
+    }
+}

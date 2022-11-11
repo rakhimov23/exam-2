@@ -1,0 +1,18 @@
+
+
+@media (max-width:$lg) {
+    .container {
+        width: $md + 20px;
+    }
+}
+@media (max-width:$md) {
+    .container {
+        width: $sm + 20px;
+    }
+}
+
+@media (max-width:$sm) {
+    .container {
+        width: 100%;
+    }
+}

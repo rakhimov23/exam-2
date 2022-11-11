@@ -1,0 +1,52 @@
+section#our-pets {
+    margin-top: 40px;
+    
+    .container {
+        .our-pets-start {
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 20px;
+            .portion {
+                width: 100%;
+                justify-content: space-between;
+                
+                .a-side {
+                    p {
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color:black;
+                    }
+                    h5 {
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 36px;
+                        text-transform: capitalize;
+                        color: $blue;
+                    }
+                }
+                
+                .b-side {
+                    width: 151px;
+                    height: 44px;
+                    border: 1.5px solid $blue;
+                    border-radius: 57px;
+                    a {
+                        padding: 10px 25px;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: $blue;
+                        margin-left: 10px;
+                    }
+                }
+            }
+
+            .grid {
+                .sweet-pets {
+                    grid-template-columns: 4, 1fr;
+                }
+            }
+        }
+    }
+}

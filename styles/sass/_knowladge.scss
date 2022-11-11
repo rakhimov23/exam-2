@@ -1,0 +1,39 @@
+section#knowladge {
+    .container {
+        .grid {
+            margin-left: 50px;
+            grid-template-areas:
+            "a b s"
+            ;
+            
+            .cards {
+                width: 364px;
+                margin: 40px;
+                button {
+                    width: 89px;
+                    height: 20px;
+                    background: #00A7E7;
+                    border-radius: 28px;
+                    font-size: 10px;
+                    border: transparent;
+                    color: #fff;
+                    margin:10px 0;
+                    
+                }
+                
+                h6 {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #00171F;
+                }
+                p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #242B33;
+                }
+            }
+        }
+    }
+}

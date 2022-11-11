@@ -1,0 +1,89 @@
+section#onemore {
+    margin-top: 50px;
+    .container {    
+        background-color: $blue;
+        border-radius: 1rem;
+        overflow: hidden;
+        }
+        .portion {
+            margin-top: 100px;
+            position: relative;
+        
+            .icon-onemore {
+                position: absolute;
+                top: -300px;
+                left: -88px;
+                transform: rotate(25.23deg);
+                width: 1000px;
+            }
+            .onemore-b-side {
+                z-index: 1;
+                margin-left: 50px;
+                h2 {
+                    text-align: end;
+                    font-weight: 700;
+                    font-size: 50px;
+                    line-height: 68px;
+                    text-transform: capitalize;
+                    color: $text-color;
+                    padding-bottom: 10px;
+                }
+                h4 {
+                    text-align: end;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 60px;
+                    text-transform: capitalize;
+                    color: $text-color;
+                    padding-bottom: 10px;
+                }
+                p {
+                    text-align: end;
+                    width: 480px;
+                    height: 72px;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: $p-color;
+                    padding-bottom: 20px;
+                }
+                
+                .showcase-links {
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+                .showcase-link {
+                    
+                    width: 161px;
+                    height: 48px;
+                    text-align: center;
+                    border: 1.5px solid $blue;
+                    border-radius: 57px;
+                    padding-top: 10px;
+                    p {
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: $blue;
+                        margin-left: 22px;
+                    }
+                    img {
+                        margin-right: 26px;
+                        padding: 0;
+                    }
+                }
+                .showcase-btn {
+                    width: 163px;
+                    height: 48px;
+                    border-radius: 57px;
+                    border: transparent;
+                    background-color: $blue;
+                    color: $white;
+                    margin-left: 20px;
+                }
+                
+            }
+        }
+    }
+
